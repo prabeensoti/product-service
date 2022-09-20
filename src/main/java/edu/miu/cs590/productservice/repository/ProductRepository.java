@@ -1,6 +1,5 @@
 package edu.miu.cs590.productservice.repository;
 
-import edu.miu.cs590.productservice.config.ProductConfiguration;
 import edu.miu.cs590.productservice.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

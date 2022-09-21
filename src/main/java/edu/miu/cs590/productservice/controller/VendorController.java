@@ -13,7 +13,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/vendors")
-@NoArgsConstructor
 public class VendorController {
 
     @Autowired

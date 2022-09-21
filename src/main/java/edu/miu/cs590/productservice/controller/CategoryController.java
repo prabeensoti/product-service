@@ -16,7 +16,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/categories")
-@NoArgsConstructor
 public class CategoryController {
     @Autowired
     CategoryService categoryService;

@@ -56,7 +56,7 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: app
-              key: USER_DATABASE_NAME
+              key: PRODUCT_DATABASE_NAME
         - name: MYSQL_USERNAME
           valueFrom:
             secretKeyRef:
@@ -77,6 +77,11 @@ spec:
             secretKeyRef:
               name: app
               key: JWT_PREFIX
+        - name: USER_SERVICE_URL
+          valueFrom:
+            configMapKeyRef:
+              name: app
+              key: USER_SERVICE_URL
 ---
 apiVersion: v1
 kind: Service
